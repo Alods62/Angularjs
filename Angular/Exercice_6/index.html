@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Exercice 6</title>
-  <script src="../angular.min.js"></script>
+  <script src="../angular.min.js"></script> //importation de angular js soit par fichier ou cdn...
 </head>
 <body>
   <div class="sum">
@@ -14,12 +14,12 @@
     <div>
       220 - 304 = {{220-304}}
     </div>
-    <div class="two_last" ng-app="">
+    <div class="two_last" ng-app=""> //on déclare notre "application" (pas de nom ici mais il faudra lui en donner un pour le lier avec le javascript)
       <div>
-        220 * 304 = {{220 * 304}}
+        220 * 304 = {{220 * 304}} //affiche le résulte d'une opération simple à l'aide des doubles '{ }'
       </div>
       <div>
-        220/304 = {{220 / 304}}
+        220/304 = {{220 / 304}} //affiche le résulte d'une opération simple à l'aide des doubles '{ }'
       </div>
     </div>
   </div>
